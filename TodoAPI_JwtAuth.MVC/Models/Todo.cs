@@ -6,6 +6,7 @@ namespace TodoAPI_JwtAuth.MVC.Models
     {
         public int Id { get; set; }
         public string Text { get; set; }
+        public string Issue { get; set; }
         public DateTime? DueDate { get; set; }
         public bool Completed { get; set; }
     }
